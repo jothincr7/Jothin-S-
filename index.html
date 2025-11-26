@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Advanced Bootstrap Web Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Sticky Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">BrandName</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="py-5 bg-light">
+    <div class="container text-center">
+      <h1 class="display-4 fw-bold mb-3">Welcome to Our Awesome Website</h1>
+      <p class="lead mb-4">Get started with our advanced Bootstrap template, perfect for showcasing your products, features, and testimonials!</p>
+      <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+      <a href="#" class="btn btn-outline-primary btn-lg">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Our Features</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body text-center">
+              <div class="mb-3"><i class="bi bi-lightning-charge fs-1 text-primary"></i></div>
+              <h5 class="card-title">Fast Performance</h5>
+              <p class="card-text">Experience blazing speed and seamless interactions on any device.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body text-center">
+              <div class="mb-3"><i class="bi bi-shield-lock fs-1 text-primary"></i></div>
+              <h5 class="card-title">Secure & Reliable</h5>
+              <p class="card-text">Our platform ensures top-notch security and 99.9% uptime all year.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100 shadow">
+            <div class="card-body text-center">
+              <div class="mb-3"><i class="bi bi-phone fs-1 text-primary"></i></div>
+              <h5 class="card-title">Mobile Friendly</h5>
+              <p class="card-text">Looks beautiful and works flawlessly on every screen size.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Carousel -->
+  <section class="bg-primary text-white py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Testimonials</h2>
+      <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <blockquote class="blockquote">
+              <p class="mb-4">"This product changed my workflow, it’s fantastic!"</p>
+            </blockquote>
+            <footer class="blockquote-footer text-white-50">Jane Doe, CEO at Company</footer>
+          </div>
+          <div class="carousel-item text-center">
+            <blockquote class="blockquote">
+              <p class="mb-4">"Amazing support and even better features. Highly recommended!"</p>
+            </blockquote>
+            <footer class="blockquote-footer text-white-50">John Smith, Developer</footer>
+          </div>
+          <div class="carousel-item text-center">
+            <blockquote class="blockquote">
+              <p class="mb-4">"A beautiful, responsive template. Easy to customize and launch."</p>
+            </blockquote>
+            <footer class="blockquote-footer text-white-50">Emma Brown, Designer</footer>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p class="mb-1">&copy; 2025 BrandName. All rights reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a class="text-white-50" href="#">Privacy Policy</a></li>
+        <li class="list-inline-item"><a class="text-white-50" href="#">Terms</a></li>
+        <li class="list-inline-item"><a class="text-white-50" href="#">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS (carousel etc.) + Bootstrap Icons CDN for icons in features section -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</body>
+</html>
